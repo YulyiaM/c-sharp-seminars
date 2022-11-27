@@ -398,5 +398,8 @@ FodyWeavers.xsd
 *.sln.iml
 
 Task 2.csproj
-
+Task 4.csproj
+Task6.csproj
+Task8.csproj
+Task7.csproj
 temp/
