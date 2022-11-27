@@ -22,7 +22,7 @@
 Console.WriteLine("Enter the first number:");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Enter the second number:");
+Console.WriteLine("Enter a second number dirrerent from the first:");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
 // if ((num2 == num1 * num1) || (num1 == num2 * num2))
