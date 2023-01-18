@@ -5,9 +5,9 @@ Console.WriteLine($"Quantity of digits in {number} is {QuantityOfDigits(number)}
 
 int QuantityOfDigits(int num)
 {
-    num = Math.Abs(num);
+    //num = Math.Abs(num);
     int quantityOfDigits = 1;
-    while (num / 10 > 0)
+    while (num / 10 != 0)
     {
         num = num / 10;
         quantityOfDigits++;
