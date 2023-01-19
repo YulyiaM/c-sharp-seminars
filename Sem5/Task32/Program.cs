@@ -25,7 +25,7 @@ int[] ArrayInvertion(int[] array)
     int[] invertionedArray = new int[array.Length];
     for (int i = 0; i < array.Length; i++)
     {
-        invertionedArray[i] = array[i]*(-1);
+        invertionedArray[i] = -array[i];
     }
     return invertionedArray;
 }
