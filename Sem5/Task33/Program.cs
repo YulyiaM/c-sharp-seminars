@@ -32,9 +32,8 @@ bool IsNumberInArray(int[] array, int num)
 Console.WriteLine("Enter the number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int[] arr = CreateArrayRndInt(10, 0, 10);
-bool yesNo = IsNumberInArray(arr, number);
 PrintArray(arr);
 Console.Write(" -> ");
-Console.WriteLine(yesNo ? "Yes" : "No");
+Console.WriteLine(IsNumberInArray(arr, number) ? "Yes" : "No");
 
 
