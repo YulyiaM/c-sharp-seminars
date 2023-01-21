@@ -30,6 +30,7 @@ int[] MultArray(int[] array)
     {
         multArray[i] = array[i] * array[array.Length - 1 - i];
     }
+    
     if (array.Length % 2 != 0) multArray[array.Length / 2] = array[array.Length / 2];
     return multArray;
 }
