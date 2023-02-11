@@ -63,7 +63,8 @@ void PrintRowSumm(int[] rowSumm)
     Console.WriteLine("]");
 }
 
-void PrintMinRowNumber(int[] rowSumm)
+void PrintMinRowNumber(int[] rowSumm) //так можно? или нужно метод только для нахождения индекса минимального числа, 
+                                      //а выводить его отдельно?
 {
     int minSum = rowSumm[0];
     int minRow = 0;
