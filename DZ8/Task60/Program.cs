@@ -4,7 +4,7 @@
 // 66(0,0,0) 27(0,0,1) 25(0,1,0) 90(0,1,1)
 // 34(1,0,0) 26(1,0,1) 41(1,1,0) 55(1,1,1)
 
-int[,,] Create3DMatrix(int rows, int columns, int depth, int min, int max)
+int[,,] Create3DMatrix(int rows, int columns, int depth, int min)
 {
     int[,,] matrix3D = new int[rows, columns, depth];
 
