@@ -17,9 +17,9 @@ int NaturalNumbersSumm(int numM, int numN)
 {
     if (numM == numN) return numM; //не придумала, как корректно вывести сумму при равенстве M и N
 
-    if (numM < numN) return numN + NaturalNumbersSumm(numM, numN - 1);
+    if (numM > numN) return NaturalNumbersSumm(numN, numM);
 
-    else return numM + NaturalNumbersSumm(numM - 1, numN);
+    else return numM + NaturalNumbersSumm(numM + 1, numN);
 }
 
 int numberM = EnteringIntegers("Enter the natural number M: ");
