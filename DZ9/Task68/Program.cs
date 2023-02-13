@@ -17,8 +17,7 @@ int AkkermanFunction(int numM, int numN)
 {
     if (numM == 0) return numN + 1;
     if (numM > 0 && numN == 0) return AkkermanFunction(numM - 1, 1);
-    if (numM > 0 && numN > 0) return AkkermanFunction(numM - 1, AkkermanFunction(numM, numN - 1));
-    else return -1;
+    return AkkermanFunction(numM - 1, AkkermanFunction(numM, numN - 1));
 }
 
 int numberM = EnteringNotNegativeIntegers("Enter the natural number M: ");
