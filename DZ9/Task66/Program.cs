@@ -19,7 +19,7 @@ int NaturalNumbersSumm(int numM, int numN)
 
     if (numM > numN) return NaturalNumbersSumm(numN, numM);
 
-    else return numM + NaturalNumbersSumm(numM + 1, numN);
+    return numM + NaturalNumbersSumm(numM + 1, numN);
 }
 
 int numberM = EnteringIntegers("Enter the natural number M: ");
