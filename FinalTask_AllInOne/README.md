@@ -22,3 +22,5 @@
 * *PrintArray(array)*
 * *Console.Write(" -> ")*
 * *PrintArray(newArray)*
+
+![иллюстрация работы кода](https://github.com/Xaliffa/CSharpSeminars/blob/main/FinalTask_AllInOne/ImageForFinalTask.jpg)
