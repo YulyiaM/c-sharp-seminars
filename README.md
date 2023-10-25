@@ -5,3 +5,7 @@
 git pull origin main --allow-unrelated-histories
 или 
 git merge origin main --allow-unrelated-histories
+
+
+
+это просто для поиграть с коммитами
